@@ -1,3 +1,3 @@
 # Vue
-æŠŠå‘éƒ½å¡«å¹³äº†çš„vueå®˜æ–¹è„šæ‰‹æž¶,è£…äº†ä¸€äº›åŸºç¡€çš„æ’ä»¶
-2-2æ—¥æäº¤æµ‹è¯•
+
+¶Ô¹Ù·½cil×öÁËÐ´¼òµ¥µÄÐÞ¸Ä£¬×°ÁËÒ»Ð©³£ÓÃµÄ²å¼þ£¬×¢Òâconfig ÏÂµÄindex.js assetsPublicPath ÊÇ±¾´ÎÏîÄ¿£¨ÎÞÈËÊÛ»õ»ú£©Éú²ú»·¾³ÏÂµÄ¹Ù·½×ÊÔ´Ä¿Â¼ £¬Èç¹û×öÆäËûÏîÄ¿±ðµ÷¿ÓÂ·¡£ÁíÍâÈ¥µôÁËhtmlwebpackpluginµÄÑ¹Ëõ£¬ÒÔºó×öÌîÉÏÒ²¿ÉÒÔµÄ¡£

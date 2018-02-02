@@ -12,10 +12,10 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       "/api":{
-       
-        target: 'https://ca.hbytapp.com',
+        target: 'https://ca.hbytapp.com/api/',
+        changeOrigin: true,
         pathRewrite: {
-          '^/api': '/api'
+          '^/api': ''
         }
       }
     },
@@ -51,7 +51,8 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+  
+    assetsPublicPath: '/static/wap/',
 
     /**
      * Source Maps
