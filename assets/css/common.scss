@@ -1,0 +1,33 @@
+
+
+@mixin linear($top, $bottom, $direction:top) {
+  background: -ms-linear-gradient($direction, $top, $bottom);
+  background: linear-gradient($direction, $top, $bottom);
+  background: -o-linear-gradient($direction, $top, $bottom);
+  background: -moz-linear-gradient($direction, $top, $bottom);
+  background: -webkit-linear-gradient($direction, $top, $bottom);
+}
+
+@mixin css3($key, $val) {
+  #{$key}: $val;
+  -webkit-#{$key}: $val;
+  -o-#{$key}: $val;
+  -moz-#{$key}: $val;
+}
+.container{
+     &::after {
+       content: "";
+       display: block;
+       height: 0.42rem;
+       width: 100%;
+       padding-bottom: 0.19rem;
+     }
+
+     &::before {
+       content: "";
+       display: block;
+       height: 0.39rem;
+       width: 100%;
+     }
+
+}
