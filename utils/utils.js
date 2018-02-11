@@ -73,6 +73,15 @@ let Base = {
       return emailReg.test(req);
 
 
+    },
+    trim: function (req) {
+      var Reg = /^[\s\t ]+|[\s\t ]+$/g
+      return req.replace(Reg, '');
+    },
+    trimAll: function (req) {
+      var Reg = /\s+/g
+      return req.replace(Reg, "");
+
     }
   },
   parseURL(url) {
